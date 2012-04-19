@@ -8,7 +8,6 @@ sub BEGIN { $ENV{'UBIC_SERVICE_PLACKUP_BIN'} = 'starman'; }
 use base qw(Ubic::Service::Plack);
 
 use Ubic::Daemon::PidState;
-use Params::Validate qw(:all);
 
 # ABSTRACT: Helper for running psgi applications with Starman
 

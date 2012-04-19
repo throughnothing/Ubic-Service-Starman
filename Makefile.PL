@@ -24,7 +24,6 @@ my %WriteMakefileArgs = (
   "LICENSE" => "unrestricted",
   "NAME" => "Ubic::Service::Starman",
   "PREREQ_PM" => {
-    "Params::Validate" => 0,
     "Ubic::Daemon::PidState" => 0,
     "Ubic::Service::Plack" => 0,
     "base" => 0,
