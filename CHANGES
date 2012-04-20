@@ -1,0 +1,47 @@
+==================================================
+Changes from 2011-04-21 00:00:00 +0000 to present.
+==================================================
+
+------------------------------------------
+version 0.002 at 2012-04-20 03:31:38 +0000
+------------------------------------------
+
+  Change: d7bfc037f174849def0ebe1794b2ca0fd74e8e9e
+  Author: William Wolf <throughnothing@gmail.com>
+  Date : 2012-04-19 23:18:02 +0000
+
+    Fixed reload command (was broken)
+
+    We didn't have access to the actual starman pid, and can't easily get
+    it unless the --pid flag is sent, so we force it to be sent if it
+    isn't sent by the user so that we can get the pid for a reload. 
+
+------------------------------------------
+version 0.001 at 2012-04-19 19:23:05 +0000
+------------------------------------------
+
+  Change: b485d3a5e3b8d0aa394f347db72dfc49721521a8
+  Author: William Wolf <throughnothing@gmail.com>
+  Date : 2012-04-19 15:23:05 +0000
+
+    Remove unnecessary use 
+
+  Change: 5e00dc0b2d9e7dc4583eccc42fc6d48450f62aed
+  Author: William Wolf <throughnothing@gmail.com>
+  Date : 2012-04-19 14:57:02 +0000
+
+    Initial Code Commit 
+
+------------------------------------------
+version 0.000 at 2012-04-19 17:35:44 +0000
+------------------------------------------
+
+  Change: 046039edf8d0571a1b0c1f609b8c53f1f496a448
+  Author: William Wolf <throughnothing@gmail.com>
+  Date : 2012-04-19 13:35:44 +0000
+
+    initial commit 
+
+================
+End of releases.
+================
