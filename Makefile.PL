@@ -24,13 +24,12 @@ my %WriteMakefileArgs = (
   "LICENSE" => "unrestricted",
   "NAME" => "Ubic::Service::Starman",
   "PREREQ_PM" => {
-    "Ubic::Daemon::PidState" => 0,
     "Ubic::Service::Plack" => 0,
     "base" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }
