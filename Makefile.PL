@@ -1,4 +1,3 @@
-
 use strict;
 use warnings;
 
@@ -24,7 +23,7 @@ my %WriteMakefileArgs = (
   "LICENSE" => "unrestricted",
   "NAME" => "Ubic::Service::Starman",
   "PREREQ_PM" => {
-    "Ubic::Service::Plack" => 0,
+    "Ubic::Service::Plack" => "1.13",
     "base" => 0,
     "strict" => 0,
     "warnings" => 0
