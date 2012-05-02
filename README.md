@@ -4,7 +4,7 @@ Ubic::Service::Starman - Helper for running psgi applications with Starman
 
 # VERSION
 
-version 0.002
+version 0.003
 
 # SYNOPSIS
 
