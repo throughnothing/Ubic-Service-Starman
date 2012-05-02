@@ -10,10 +10,11 @@ use base qw(Ubic::Service::Plack);
 # ABSTRACT: Helper for running psgi applications with Starman
 
 sub new {
-    my ($class, %args ) = @_;
+    my $class = shift;
+    my $args = @_ > 1 ? { @_ } : $_[0];
 
-    $args{server} = 'Starman';
-    my $obj = $class->SUPER::new( %args );
+    $args->{server} = 'Starman';
+    my $obj = $class->SUPER::new( $args );
     # Default pid file for starman
     unless( $obj->{server_args}->{pid} ){
         # Set a pid for the starman server if one is not already set,
