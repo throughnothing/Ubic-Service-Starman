@@ -1,10 +1,26 @@
 ==================================================
-Changes from 2011-05-03 00:00:00 +0000 to present.
+Changes from 2011-12-11 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.003 at 2012-05-02 23:01:49 +0000
+version 0.004 at 2012-12-10 17:56:24 +0000
 ------------------------------------------
+
+  Change: cf9a5cc803dbaba0db68f1ddacd816c63fd80a95
+  Author: Oleg Komarov <komarov.om@gmail.com>
+  Date : 2012-12-10 09:55:39 +0000
+
+    add Starman dependency 
+
+------------------------------------------
+version 0.003 at 2012-05-02 23:01:53 +0000
+------------------------------------------
+
+  Change: d08690c8ee833949ffacec12c8d9866c24586a97
+  Author: William Wolf <throughnothing@gmail.com>
+  Date : 2012-05-02 19:01:53 +0000
+
+    v0.003 
 
   Change: a686f223b99bd5fbe591e0d71a5db9d142015b94
   Author: William Wolf <throughnothing@gmail.com>
