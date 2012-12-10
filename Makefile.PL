@@ -1,4 +1,3 @@
-
 use strict;
 use warnings;
 
@@ -25,11 +24,12 @@ my %WriteMakefileArgs = (
   "NAME" => "Ubic::Service::Starman",
   "PREREQ_PM" => {
     "Ubic::Service::Plack" => 0,
+    "Starman" => 0,
     "base" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.003",
+  "VERSION" => "0.004",
   "test" => {
     "TESTS" => "t/*.t"
   }
